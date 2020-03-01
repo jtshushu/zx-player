@@ -1,8 +1,13 @@
 {
     "name": "zx-player",
     "author": "chuzhixin <1204505056@qq.com>",
-    "version": "0.9.0",
+    "version": "0.9.1",
+    "homepage": "https://chu1204505056.gitee.io/byui-bookmarks/",
     "main": "src/components/export.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/chuzhixin/zx-player"
+    },
     "scripts": {
         "serve": "vue-cli-service serve",
         "build": "vue-cli-service build",
@@ -30,25 +35,6 @@
         "prettier": "^1.19.1",
         "sass-loader": "^8.0.2",
         "vue-template-compiler": "^2.6.11"
-    },
-    "eslintConfig": {
-        "root": true,
-        "env": {
-            "node": true
-        },
-        "extends": [
-            "plugin:vue/essential",
-            "eslint:recommended"
-        ],
-        "rules": {},
-        "parserOptions": {
-            "parser": "babel-eslint"
-        }
-    },
-    "postcss": {
-        "plugins": {
-            "autoprefixer": {}
-        }
     },
     "browserslist": [
         "> 1%",
