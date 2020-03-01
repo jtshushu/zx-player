@@ -1,18 +1,21 @@
 # zx-player(作者:初志鑫<1204505056@qq.com>)
 
 ## 注意事项
+
 ```
 只能用于Vue CLI项目
 
 ```
 
 ## 鸣谢
+
 ```
 努力了这么久,终于成了一名合格的代码搬运工,我只是有幸站在了巨人的肩膀上,感谢自己,感谢巨人...
 
 ```
 
 ## 实现功能
+
 ```
 1.实现了blob加密video的src
 2.实现了flv的html5播放
@@ -21,21 +24,25 @@
 ```
 
 ### 商务合作与赞赏
+
 ```
 邮箱  1204505056@qq.com
 QQ 1204505056
 
 如果你觉得这个项目帮助到了你，你可以赞赏一下作者:
 ```
+
 ![image](https://raw.githubusercontent.com/chuzhixin/donate/master/donation.png)
 
 ## 安装方法
+
 ```
 cnpm i -S zx-player
 
 ```
 
-### mp4组件main.js全局引入
+### mp4 组件 main.js 全局引入
+
 ```
 import Vue from 'vue'
 import {mp4} from 'zx-player'
@@ -43,7 +50,8 @@ Vue.component('byui-player-mp4', mp4)
 
 ```
 
-### hls(m3u8)组件main.js全局引入
+### hls(m3u8)组件 main.js 全局引入
+
 ```
 import Vue from 'vue'
 import {hls} from 'zx-player'
@@ -51,7 +59,8 @@ Vue.component('byui-player-hls', hls)
 
 ```
 
-### flv组件main.js全局引入
+### flv 组件 main.js 全局引入
+
 ```
 import Vue from 'vue'
 import {flv} from 'zx-player'
@@ -59,7 +68,8 @@ Vue.component('byui-player-flv', flv)
 
 ```
 
-### template完整示例(不要忘记改成自己的视频路径)
+### template 完整示例(不要忘记改成自己的视频路径)
+
 ```
 <template>
 	<div id="app">
@@ -109,7 +119,3 @@ body {
 </style>
 
 ```
-
- 
- 
- 

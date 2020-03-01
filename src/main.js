@@ -5,7 +5,7 @@ import {
 	flv,
 	hls,
 	custom
-} from '../components/export.js'
+} from './components/export.js'
 Vue.component('byui-player-mp4', mp4)
 Vue.component('byui-player-flv', flv)
 Vue.component('byui-player-hls', hls)
